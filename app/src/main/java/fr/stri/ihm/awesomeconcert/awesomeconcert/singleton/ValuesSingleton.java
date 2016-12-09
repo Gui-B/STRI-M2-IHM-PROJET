@@ -19,7 +19,6 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.entity.User;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.listeners.OnItemClickedListener;
 
 /**
- * If you just puked in your mouth a little by looking at this class, it's perfectly fine.
  * Created by Guillaume BOULIC & Rémi BARBASTE on 25/11/2016.
  */
 public class ValuesSingleton {
@@ -38,7 +37,6 @@ public class ValuesSingleton {
     private Map<String, User> mUsers;
     private Map<String, List<Integer>> mUsersConcerts;
     private String mUser = "";
-    private boolean mEgg = false;
 
     private ValuesSingleton() {
         setupArtistData();
@@ -158,10 +156,6 @@ public class ValuesSingleton {
 
     public void buyTicket(int concertId) {
         mUsersConcerts.get(mUser).add(concertId);
-    }
-
-    public void setEgg() {
-        mEgg = true;
     }
 
 
