@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Ouvrir le panneau de navigation</string>
+    <string name="navigation_drawer_close">Fermer le panneau de navigation</string>
+
+    <string name="action_settings">Paramètres</string>
+
+    <string name="drawer_action_search">Recherche détaillée</string>
+    <string name="drawer_action_connection">Connexion</string>
+    <string name="drawer_action_register">Créer un compte</string>
+    <string name="drawer_action_notification">Notifications</string>
+    <string name="drawer_action_concerts">Concerts à venir</string>
+    <string name="drawer_action_explore">Tous les concerts</string>
+    <string name="explore_search">Chercher un concert</string>
+    <string name="drawer_action_account">Mon compte</string>
+    <string name="dialog_old_passwd">Ancien mot de passe</string>
+    <string name="dialog_new_passwd">Nouveau mot de passe</string>
+    <string name="connexion_connection">Connexion</string>
+    <string name="connexion_name">Prénom</string>
+    <string name="connexion_last_name">Nom</string>
+    <string name="connexion_email">Email</string>
+    <string name="connexion_password">Mot de passe</string>
+    <string name="connexion_password_confirmation">Confirmation du mot de passe</string>
+    <string name="connexion_save">Enregistrer</string>
+    <string name="connexion_modify">Modifier le mot de passe</string>
+    <string name="search_artist">Recherche par artiste</string>
+    <string name="search_concert">Recherche par concert</string>
+    <string name="search_artist_name">Nom de l\'artiste</string>
+    <string name="search_location">Lieu</string>
+    <string name="search_concert_name">Nom du concert</string>
+    <string name="detail_artist">Artiste</string>
+    <string name="detail_itinerary">Itinéraire</string>
+    <string name="detail_all_concerts">Tous les concerts</string>
+    <string name="detail_purchase_OK">Merci d\'avoir acheté un ticket</string>
+    <string name="detail_purchase_error">Vous devez être connecté pour acheter un ticket</string>
+    <string name="connexion_passwd_no_match">La confirmation de votre mot de passe ne correspond pas à celui-ci</string>
+    <string name="connexion_passwd_invalid">Votre nom d\'utilisateur ou votre mot de passe est invalide</string>
+</resources>

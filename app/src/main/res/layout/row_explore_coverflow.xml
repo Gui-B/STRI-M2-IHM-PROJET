@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.ExploreRowCoverflowViewModel"/>
+    </data>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/coverflow_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"/>
+
+    </LinearLayout>
+</layout>
