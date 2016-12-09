@@ -31,9 +31,12 @@ public class ConnexionFragmentViewModel extends ViewModel<FragmentConnexionBindi
                         getBinding().lastNameField.getText().toString(),
                         getBinding().emailField.getText().toString(),
                         getBinding().passwdField.getText().toString());
-                if (!user.getUserName().isEmpty() && !user.getName().isEmpty() && !user.getLastName().isEmpty() && !user.getMail().isEmpty() && !user.getPasswd().isEmpty())
+                if (!user.getUserName().isEmpty() && !user.getName().isEmpty() && !user.getLastName().isEmpty() && !user.getMail().isEmpty() && !user.getPasswd().isEmpty()) {
                     ValuesSingleton.getInstance().signUp(user);
-                ((MainActivity) getActivity()).getViewModel().navigateToExplore();
+                    ((MainActivity) getActivity()).getViewModel().navigateToExplore();
+                }
+                else
+                    Snackbar.make(getRootView(), "Veuillez saisir tous les champs", Snackbar.LENGTH_SHORT).show();
             } else {
                 Snackbar.make(getRootView(), getString(R.string.connexion_passwd_no_match), Snackbar.LENGTH_SHORT).show();
             }
