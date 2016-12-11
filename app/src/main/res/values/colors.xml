@@ -3,7 +3,4 @@
     <color name="colorPrimary">#D32F2F</color>
     <color name="colorPrimaryDark">#B71C1C</color>
     <color name="colorAccent">#EF6C00</color>
-    <color name="colorPrimaryEgg">#ef4e91</color>
-    <color name="colorPrimaryDarkEgg">#f8b9ce</color>
-    <color name="colorAccentEgg">#539ebd</color>
 </resources>
