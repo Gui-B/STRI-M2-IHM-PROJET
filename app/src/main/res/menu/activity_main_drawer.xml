@@ -5,31 +5,31 @@
         <item
             android:id="@+id/nav_all_concerts"
             android:icon="@drawable/ic_explore_black_24dp"
-            android:title="Tous les concerts"/>
+            android:title="@string/drawer_action_explore"/>
         <item
             android:id="@+id/nav_search"
             android:icon="@drawable/ic_search_black_24dp"
-            android:title="Recherche détaillée"/>
+            android:title="@string/drawer_action_search"/>
         <item
             android:id="@+id/nav_sign_in"
             android:icon="@drawable/ic_input_black_24dp"
-            android:title="Se connecter"/>
+            android:title="@string/drawer_action_connection"/>
         <item
             android:id="@+id/nav_sign_up"
             android:icon="@drawable/ic_perm_identity_black_24dp"
-            android:title="S'inscrire"/>
+            android:title="@string/drawer_action_register"/>
         <item
             android:id="@+id/nav_notification"
             android:icon="@drawable/ic_sms_black_24dp"
-            android:title="Gestion notification"/>
+            android:title="@string/drawer_action_notification"/>
         <item
             android:id="@+id/nav_concerts"
             android:icon="@drawable/ic_event_black_24dp"
-            android:title="Mes concerts à venir"/>
+            android:title="@string/drawer_action_concerts"/>
         <item
             android:id="@+id/nav_account"
             android:icon="@drawable/ic_account_circle_black_24dp"
-            android:title="Mon compte"/>
+            android:title="@string/drawer_action_account"/>
     </group>
 
 </menu>
