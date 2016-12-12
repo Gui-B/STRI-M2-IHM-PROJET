@@ -1,9 +1,18 @@
 package fr.stri.ihm.awesomeconcert.awesomeconcert.entity;
 
-/**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 22/11/2016.
- */
 
+/**
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe correspond à un concert.
+ *
+ * Seeheim : Partie traitement des données
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 22/11/2016
+ */
 public class Concert {
     private int id;
     private String concertName;
