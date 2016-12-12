@@ -79,6 +79,8 @@ public class MainActivityViewModel extends ViewModel<ActivityMainBinding> implem
 			case R.id.nav_all_concerts:
                 mFM.beginTransaction().replace(R.id.fragment_placeholder, ConcertListFragment.newInstance()).commit();
 				break;
+			case R.id.nav_logout:
+				break;
 		}
 
 		DrawerLayout drawer = getBinding().drawerLayout;
@@ -122,6 +124,7 @@ public class MainActivityViewModel extends ViewModel<ActivityMainBinding> implem
 		switch (item.getItemId()) {
 			case R.id.nav_account:
 			case R.id.nav_notification:
+			case R.id.nav_logout:
 			case R.id.nav_concerts:
 				return connected;
 			case R.id.nav_sign_in:

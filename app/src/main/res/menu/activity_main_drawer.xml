@@ -30,6 +30,9 @@
             android:id="@+id/nav_account"
             android:icon="@drawable/ic_account_circle_black_24dp"
             android:title="@string/drawer_action_account"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/drawer_action_logout"/>
     </group>
 
 </menu>

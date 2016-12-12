@@ -13,6 +13,7 @@
     <string name="drawer_action_explore">Tous les concerts</string>
     <string name="explore_search">Chercher un concert</string>
     <string name="drawer_action_account">Mon compte</string>
+    <string name="drawer_action_logout">Deconnexion</string>
     <string name="dialog_old_passwd">Ancien mot de passe</string>
     <string name="dialog_new_passwd">Nouveau mot de passe</string>
     <string name="connexion_connection">Connexion</string>

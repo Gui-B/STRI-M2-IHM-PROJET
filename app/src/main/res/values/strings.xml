@@ -16,6 +16,7 @@
     <string name="drawer_action_explore">All concerts</string>
     <string name="explore_search">Search for a concert</string>
     <string name="drawer_action_account">My Account</string>
+    <string name="drawer_action_logout">Logout</string>
     <string name="dialog_old_passwd">Old password</string>
     <string name="dialog_new_passwd">New password</string>
     <string name="connexion_connection">Login</string>
