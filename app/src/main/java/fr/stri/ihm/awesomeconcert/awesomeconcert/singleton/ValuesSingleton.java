@@ -115,6 +115,7 @@ public class ValuesSingleton {
         if(isLogged) mUser = user;
         return isLogged;
     }
+    public void logUserOut(){isLogged=false;}
 
     public boolean isLoggedIn() {
         return isLogged;
@@ -158,6 +159,7 @@ public class ValuesSingleton {
         mUsersConcerts.get(mUser).add(concertId);
     }
 
+    public void buyTicket(int concertId, User user) { mUsersConcerts.get(user).add(concertId); }
 
     public boolean hasTicket(int concertId) {
         return isLogged && mUsersConcerts.get(mUser).contains(concertId);
