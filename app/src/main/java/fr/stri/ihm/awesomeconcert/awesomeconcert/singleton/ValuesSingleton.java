@@ -156,10 +156,12 @@ public class ValuesSingleton {
         return mConcertsNotif.contains(concertId);
     }
 
+    // acheter ticket
     public void buyTicket(int concertId) {
         mUsersConcerts.get(mUser).add(concertId);
     }
 
+    // offrir ticket
     public void buyTicket(int concertId, User user) { mUsersConcerts.get(user).add(concertId); }
 
     public boolean hasTicket(int concertId) {
