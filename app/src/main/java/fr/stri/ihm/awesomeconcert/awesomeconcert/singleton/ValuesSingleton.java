@@ -46,6 +46,7 @@ public class ValuesSingleton {
         mArtistNotif = new ArrayList<>();
         mUsers = new HashMap<>();
         mUsersConcerts = new HashMap<>();
+        // Déclaration utilisateur par défaut
         signUp(new User("admin", "", "", "", ""));
     }
 
@@ -165,9 +166,9 @@ public class ValuesSingleton {
 
     private void setupArtistData() {
         mArtists = new HashMap<>();
-        mArtists.put(0, new Artist("Coldplay", R.drawable.coldplay, "Coldplay vient d'annoncer les premiËres dates 2017 de son A Head Full Of Dreams Tour.\n" +
+        mArtists.put(0, new Artist("Coldplay", R.drawable.coldplay, "Coldplay vient d'annoncer les premières dates 2017 de son A Head Full Of Dreams Tour.\n" +
                 "Le 8 juin 2017 et le 15 juillet 2017, Coldplay nous fera honneur et l'immense plaisir de se produire ‡ Lyon au Stade Olympique Lyonnais et ‡ Paris au Stade de France pour deux concerts exceptionnels !\n" +
-                "Depuis le mois de mars dernier, la tournÈe A Head Full Of Dreams Tour a comblÈ le public ‡ travers líAmÈrique Latine, les …tats-Unis et líEurope, avec notamment quatre dates historiques dans un Wembley Stadium de Londres ‡ guichets fermÈs. Plus de 2,5 millions de spectateurs ont dÈj‡ assistÈ ‡ ce show unique conÁu par le groupe avec le concours des cÈlËbres producteurs designers Misty Buckley et Paul Normandale.\n" +
+                "Depuis le mois de mars dernier, la tournÈe A Head Full Of Dreams Tour a comblé le public ‡ travers líAmÈrique Latine, les …tats-Unis et líEurope, avec notamment quatre dates historiques dans un Wembley Stadium de Londres ‡ guichets fermÈs. Plus de 2,5 millions de spectateurs ont dÈj‡ assistÈ ‡ ce show unique conÁu par le groupe avec le concours des cÈlËbres producteurs designers Misty Buckley et Paul Normandale.\n" +
                 "Líalbum A Head Full Of Dreams síest vendu ‡ plus de 4 millions díexemplaires depuis sa sortie en dÈcembre 2015, portÈ par les hits Adventure Of a Lifetime, Hymn For The Weekend et Up&Up, totalisant plus díun milliard de vues sur Youtube. Un quatriËme single issu de líalbum, vient juste de sortir. La semaine derniËre, le groupe a ÈtÈ nominÈ pour 4 awards aux MTV EMA, dont le prestigieux award du meilleur live."));
         mArtists.put(1, new Artist("M Pokora", R.drawable.m_pokora, "AprËs un RED TOUR triomphal, M. POKORA est de retour sur scËne ‡ partir du 3 MARS 2017 et enflammera de nouveau la France, la Belgique et la Suisse avec un show spectaculaire entourÈ de 10 musiciens et ses danseuses."));
         mArtists.put(2, new Artist("Frero Delavega", R.drawable.frero_delavega, "Concert ÈvËnement aux Quinconces ‡ Bordeaux le 10 juin 2017 & en tournÈe dans toute la France ‡ partir du 02/03/17.\n" +
@@ -182,13 +183,13 @@ public class ValuesSingleton {
                 "Suivi par plus de 6 millions de personnes sur les rÈseaux sociaux\n" +
                 "\n" +
                 "SOPRANO va mettre le feu en concert dans toute la France avec un nouveau spectacle dËs mars 2017. "));
-        mArtists.put(4, new Artist("Florent Pagny", R.drawable.florent_pagny, "Deux ans et demi aprËs le succËs de sa derniËre tournÈe ´ Vieillir Ensemble ª, Florent Pagny dÈcide pour son 55e anniversaire de remonter sur scËne et díoffrir ‡ son public une sÈrie de concerts exceptionnels dans toute la France avec sa nouvelle tournÈe ÈvÈnement ´ 55 Tour."));
-        mArtists.put(5, new Artist("Les insus", R.drawable.les_insus, "AprËs plus de 6 mois de tournÈe ‡ guichets fermÈs, Les Insus (Jean-Louis AUBERT, Louis\n" +
+        mArtists.put(4, new Artist("Florent Pagny", R.drawable.florent_pagny, "Deux ans et demi aprËs le succËs de sa dernière tournée ´ Vieillir Ensemble ª, Florent Pagny dÈcide pour son 55e anniversaire de remonter sur scËne et díoffrir ‡ son public une sÈrie de concerts exceptionnels dans toute la France avec sa nouvelle tournÈe ÈvÈnement ´ 55 Tour."));
+        mArtists.put(5, new Artist("Les insus", R.drawable.les_insus, "Apres plus de 6 mois de tournÈe à guichets fermÈs, Les Insus (Jean-Louis AUBERT, Louis\n" +
                 "BERTIGNAC, Richard KOLINKA et Aleksander ANGELOV) annoncent pour 2017 : le îDernier Appelî !\n" +
                 "Ils reprendront la routÈ líÈtÈ prochain pour une sÈrie de concerts qui se conclura par une\n" +
                 "date exceptionnelle vendredi 15 septembre au Stade de France !\n" +
                 "´ On voulait que ce grand bonheur se finisse en beautÈ ! ª - Les Insus"));
-        mArtists.put(6, new Artist("Stars 80", R.drawable.stars_80, "STARS 80 ñ 10 ANS DEJA !\n" +
+        mArtists.put(6, new Artist("Stars 80", R.drawable.stars_80, "STARS 80 : 10 ANS DEJA !\n" +
                 "Venez chanter et danser avec  les copains de STARS 80 , LIO, DEBUT DE SOIREE, SABRINA, FRANCOIS FELDMAN, JULIE PIETRI , COOKIE DINGLER, EMILE et IMAGES , PATRICK HERNANDEZ, JEAN PIERRE MADER, PHIL BARNEY, JEAN SCHULTHEIS, PAULINE ESTER, LAROCHE VALMONT, PATRICK COUTIN, rejoints cette saison par PLASTIC BERTRAND, THIERRY PASTOR, JONIECE JAMISON Ö. + invitÈs, distribution en cours et non exhaustive.\n" +
                 "TOUS les Chanteurs, Musiciens 100%Live, Choristes et Danseurs, unis pour dÈlivrer UNE SPECTACLE UNIQUE, LE TEMPS DíUNE NUIT DE FOLIE !"));
     }
