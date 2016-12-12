@@ -12,7 +12,16 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.databinding.ActivityConcertList
 import fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.ConcertListViewModel;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 25/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette activité permet de lister les concerts.
+ *
+ * Seeheim : Partie traitement des données
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 25/11/2016
  */
 
 public class ConcertListActivity extends ViewModelActivity<ActivityConcertListBinding, ConcertListViewModel> {

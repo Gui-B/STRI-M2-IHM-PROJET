@@ -10,8 +10,18 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.R;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.databinding.ActivityMainBinding;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.MainActivityViewModel;
 
+
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 24/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette activité est l'activité principale.
+ *
+ * Seeheim : Partie traitement des données
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 24/11/2016
  */
 
 public class MainActivity extends ViewModelActivity<ActivityMainBinding, MainActivityViewModel> {

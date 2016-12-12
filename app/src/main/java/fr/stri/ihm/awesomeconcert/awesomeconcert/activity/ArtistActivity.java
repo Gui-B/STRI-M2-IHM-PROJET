@@ -8,7 +8,16 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.R;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.ArtistActivityViewModel;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 24/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette activité permet l'affichage d'un artiste. Elle hérite de DetailActivity.
+ *
+ * Seeheim : Partie traitement des données
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 24/11/2016
  */
 
 public class ArtistActivity extends DetailActivity<ArtistActivityViewModel> {
