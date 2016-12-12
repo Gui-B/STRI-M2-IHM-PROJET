@@ -17,9 +17,17 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.ExploreRowConcertView
 import fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.ExploreRowCoverflowViewModel;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 22/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe est responsable de faire la vue pour chacun des items du dateset.
+ *
+ * Seeheim : Partie traitement des données
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 22/11/2016
  */
-
 public class ExploreAdapter extends RecyclerView.Adapter<ExploreAdapter.StrategyViewHolder> {
     private static final String TAG = "ExploreAdapter";
     private List<StrategyItem> items;

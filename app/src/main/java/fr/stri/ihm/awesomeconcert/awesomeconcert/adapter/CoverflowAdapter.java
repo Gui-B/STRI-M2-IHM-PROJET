@@ -17,7 +17,16 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.listeners.OnItemClickedListener
 import fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.ExploreRowCoverflowItemViewModel;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 23/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe est responsable de faire la vue pour chacun des items du dateset.
+ *
+ * Seeheim : Partie traitement des données
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 23/11/2016
  */
 
 public class CoverflowAdapter extends RecyclerView.Adapter<CoverflowAdapter.CoverViewHolder> {

@@ -1,9 +1,17 @@
 package fr.stri.ihm.awesomeconcert.awesomeconcert.adapter;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 22/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe est responsable de faire la vue pour chacun des items du dateset.
+ *
+ * Seeheim : Partie traitement des données
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 22/11/2016
  */
-
 public abstract class StrategyItem {
 	public static final int TYPE_COVERFLOW = 0;
 	public static final int TYPE_CONCERT = 1;
