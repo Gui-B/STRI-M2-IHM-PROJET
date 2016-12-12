@@ -116,7 +116,7 @@ public class ValuesSingleton {
         if(isLogged) mUser = user;
         return isLogged;
     }
-    public void logUserOut(){isLogged=false;}
+    public void logUserOut(){ isLogged=false; }
 
     public boolean isLoggedIn() {
         return isLogged;

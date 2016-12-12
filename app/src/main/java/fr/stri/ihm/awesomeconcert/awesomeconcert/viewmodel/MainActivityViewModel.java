@@ -13,6 +13,7 @@ import android.view.MenuItem;
 
 import cz.kinst.jakub.viewmodelbinding.ViewModel;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.R;
+import fr.stri.ihm.awesomeconcert.awesomeconcert.activity.MainActivity;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.databinding.ActivityMainBinding;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.fragment.ConcertListFragment;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.fragment.ConnexionFragment;
@@ -80,7 +81,10 @@ public class MainActivityViewModel extends ViewModel<ActivityMainBinding> implem
                 mFM.beginTransaction().replace(R.id.fragment_placeholder, ConcertListFragment.newInstance()).commit();
 				break;
 			case R.id.nav_logout:
-				break;
+				ValuesSingleton.getInstance().logUserOut();
+                ((MainActivity) getActivity()).getViewModel().navigateToExplore();
+
+                break;
 		}
 
 		DrawerLayout drawer = getBinding().drawerLayout;
