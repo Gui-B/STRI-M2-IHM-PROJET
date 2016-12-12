@@ -12,7 +12,18 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.ConnexionFragmentView
 /**
  * Created by Guillaume BOULIC & Rémi BARBASTE on 24/11/2016.
  */
-
+/**
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe correspond au fragment associé à la connexion d'un utilisateur.
+ *
+ * Seeheim : Partie controleur de dialogue
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 22/11/2016
+ */
 public class ConnexionFragment extends ViewModelFragment<FragmentConnexionBinding, ConnexionFragmentViewModel> {
     private static final String KEY_SIGNUP = "is_sign_up";
 

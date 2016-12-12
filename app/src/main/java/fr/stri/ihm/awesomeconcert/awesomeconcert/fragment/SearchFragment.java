@@ -7,7 +7,16 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.databinding.FragmentSearchBindi
 import fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.SearchFragmentViewModel;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 23/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe correspond au fragment associé à une recherche.
+ *
+ * Seeheim : Partie controleur de dialogue
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 23/11/2016
  */
 
 public class SearchFragment extends ViewModelFragment<FragmentSearchBinding, SearchFragmentViewModel> {

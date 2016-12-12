@@ -15,9 +15,17 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.entity.Concert;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.singleton.ValuesSingleton;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 24/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe implémente la vue d'un concert.
+ *
+ * Seeheim : Partie interface (présentation)
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 24/11/2016
  */
-
 public class ConcertActivityViewModel extends DetailActivityViewModel {
     private Concert mConcert;
     private Artist mArtist;

@@ -12,7 +12,16 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.databinding.ActivityDetailBindi
 import fr.stri.ihm.awesomeconcert.awesomeconcert.singleton.ValuesSingleton;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 24/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe implémente la vue associé à l'affichage du détail d'une activité.
+ *
+ * Seeheim : Partie interface (présentation)
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 24/11/2016
  */
 
 public abstract class DetailActivityViewModel extends ViewModel<ActivityDetailBinding> {

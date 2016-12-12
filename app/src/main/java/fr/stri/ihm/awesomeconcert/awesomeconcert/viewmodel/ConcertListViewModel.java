@@ -12,7 +12,16 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.fragment.ConcertListFragment;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.listeners.OnItemClickedListener;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 25/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe implémente la vue d'une liste de concerts.
+ *
+ * Seeheim : Partie interface (présentation)
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 25/11/2016
  */
 
 public class ConcertListViewModel extends ViewModel<ActivityConcertListBinding> implements OnItemClickedListener {

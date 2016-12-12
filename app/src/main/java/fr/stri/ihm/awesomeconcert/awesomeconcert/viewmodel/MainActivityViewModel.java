@@ -21,7 +21,16 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.fragment.SearchFragment;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.singleton.ValuesSingleton;
 
 /**
- * Created by rob on 22/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe implémente la vue principale.
+ *
+ * Seeheim : Partie interface (présentation)
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 22/11/2016
  */
 
 public class MainActivityViewModel extends ViewModel<ActivityMainBinding> implements NavigationView.OnNavigationItemSelectedListener {

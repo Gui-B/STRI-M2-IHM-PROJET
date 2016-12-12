@@ -16,7 +16,18 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.singleton.ValuesSingleton;
 /**
  * Created by Guillaume BOULIC & Rémi BARBASTE on 29/11/2016.
  */
-
+/**
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe correspond au fragment associé à la modification d'un mot de passe.
+ *
+ * Seeheim : Partie controleur de dialogue
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 29/11/2016
+ */
 public class PasswordDialogFragment extends DialogFragment {
     public static PasswordDialogFragment newInstance() {
         return new PasswordDialogFragment();

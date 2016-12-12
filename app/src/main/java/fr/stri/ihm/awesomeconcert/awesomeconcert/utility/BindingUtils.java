@@ -8,9 +8,17 @@ import android.widget.CompoundButton;
 import android.widget.ImageView;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 28/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe implémente l'utilisation de "binding".
+ *
+ * Seeheim : Partie controleur de dialogue
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 28/11/2016
  */
-
 public class BindingUtils {
     @BindingAdapter({"bind:imageDrawable"})
     public static void setImage(ImageView view, @DrawableRes int drawableRes) {

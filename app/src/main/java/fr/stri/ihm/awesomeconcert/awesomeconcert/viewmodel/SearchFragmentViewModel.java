@@ -12,8 +12,18 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.entity.Concert;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.listeners.OnItemClickedListener;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.singleton.ValuesSingleton;
 
+
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 23/11/2016.
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe implémente le fragment associé à la recherche.
+ *
+ * Seeheim : Partie interface (présentation)
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 24/11/2016
  */
 
 public class SearchFragmentViewModel extends ViewModel<FragmentSearchBinding> implements OnItemClickedListener {

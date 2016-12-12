@@ -15,6 +15,18 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.ConcertListFragmentVi
 /**
  * Created by Guillaume BOULIC & Rémi BARBASTE on 22/11/2016.
  */
+/**
+ * Projet IHM - AwesomeConcert
+ *
+ * Cette classe correspond au fragment assicié à la liste des concert.
+ *
+ * Seeheim : Partie controleur de dialogue
+ *
+ * Auteur : Guillaume BOULIC
+ * Auteur : Rémi BARBASTE
+ *
+ * Date : 22/11/2016
+ */
 
 public class ConcertListFragment extends ViewModelFragment<FragmentConcertListBinding, ConcertListFragmentViewModel> {
     private static final String KEY_ARTIST_ID = "artistId";
