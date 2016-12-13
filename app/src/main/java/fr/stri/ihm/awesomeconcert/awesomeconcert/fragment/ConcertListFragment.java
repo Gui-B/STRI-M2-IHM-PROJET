@@ -13,9 +13,6 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.entity.Concert;
 import fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.ConcertListFragmentViewModel;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 22/11/2016.
- */
-/**
  * Projet IHM - AwesomeConcert
  *
  * Cette classe correspond au fragment assicié à la liste des concert.

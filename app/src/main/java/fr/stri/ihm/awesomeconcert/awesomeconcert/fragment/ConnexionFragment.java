@@ -10,9 +10,6 @@ import fr.stri.ihm.awesomeconcert.awesomeconcert.databinding.FragmentConnexionBi
 import fr.stri.ihm.awesomeconcert.awesomeconcert.viewmodel.ConnexionFragmentViewModel;
 
 /**
- * Created by Guillaume BOULIC & Rémi BARBASTE on 24/11/2016.
- */
-/**
  * Projet IHM - AwesomeConcert
  *
  * Cette classe correspond au fragment associé à la connexion d'un utilisateur.
